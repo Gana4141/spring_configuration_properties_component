@@ -14,6 +14,7 @@ public class BootCore01ConfigurationPropertiesApplication {
 	ApplicationContext ctx = SpringApplication.run(BootCore01ConfigurationPropertiesApplication.class, args);
 	   MobilePhones mobilePhones =ctx.getBean(MobilePhones.class);
 	   System.out.println(mobilePhones);
-	}
+	   System.out.println("===================");
+	}   
 
-}
+}   
